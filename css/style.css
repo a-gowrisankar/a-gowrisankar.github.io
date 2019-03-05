@@ -17,7 +17,7 @@ body a{
 	-ms-transition: 0.5s all;
 	text-decoration:none;
 }
-h1,h2,h3,h4,h5,h6,h8{
+h1,h2,h3,h4,h5,h6{
 	margin:0;	
 	font-family: 'Overlock', cursive;
 }
@@ -140,15 +140,7 @@ ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 h3.title {
     font-size: 4em;
     text-align: center;
-    color: #b36b00;
-    border-bottom: 4px double rgba(247, 197, 106, 0.35);
-    padding-bottom: 0.2em;
-	margin-bottom: 1em;
-}
-h8.title {
-    font-size: 4em;
-    text-align: center;
-    color: #ffffe6;
+    color: #F7E612;
     border-bottom: 4px double rgba(247, 197, 106, 0.35);
     padding-bottom: 0.2em;
 	margin-bottom: 1em;
