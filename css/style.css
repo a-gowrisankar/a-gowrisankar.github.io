@@ -103,12 +103,12 @@ ul.address li ul.address-text li a {
 	text-decoration:none;
 }
 ul.address li ul.address-text li a:hover{
-    color: #004080;
+    color: #001a33;
 }
 /*--//banner-top--*/
 /*--top-nav--*/
 .top-nav {
-    background: #003366;
+    background: #001a33;
 }
 .nav > li {
     display: inline-block;
