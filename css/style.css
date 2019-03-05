@@ -57,7 +57,7 @@ body a:hover{
 }
 .header-right h2 {
     font-size: 1.2em;
-    color: #001a33;
+    color: #003366;
     background: #FFDF00;
     display: inline-block;
     padding: .5em 1.5em;
@@ -175,7 +175,7 @@ p {
 /*--//about--*/
 /*--work--*/
 .work {
-    background: #001a33;
+    background: #003366;
 }
 .work-left {
     text-align: right;
@@ -266,12 +266,12 @@ p {
 /*--//work--*/
 /*--education--*/
 .education .work-info h5 {
-    color: #001a33;
+    color: #003366;
 }
 /*--//education--*/
 /*--skills--*/
 .skills{
-	background:#001a33;
+	background:#003366;
 }
 .bar-grids {
     padding: 0 4em;
@@ -317,7 +317,7 @@ background: #F7E612;
     text-align: center;
 }
 .resp-tab-item {
-    color: #001a33;
+    color: #003366;
     font-size: 1.2em;
     cursor: pointer;
     display: inline-block;
@@ -375,7 +375,7 @@ h2.resp-accordion {
 .grid {
 	position: relative;
 	overflow:hidden;
-	background: #001a33;
+	background: #003366;
 }
 .grid img {
 	opacity: 0.8;
@@ -498,7 +498,7 @@ h2.resp-accordion {
 /*--//portfolio--*/
 /*--contact--*/
 .contact{
-	background:#001a33;
+	background:#003366;
 }
 .contact-left iframe {
     width: 100%;
