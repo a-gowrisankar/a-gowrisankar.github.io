@@ -187,7 +187,7 @@ p {
 }
 .work-info h4 {
     font-size: 1.2em;
-    background: rgb(179, 107, 0);
+    background: rgb(255, 203, 11);
     display: inline-block;
     padding: .6em 1.2em;
     color: #fff;
@@ -203,7 +203,7 @@ p {
     right: -14px;
     border-style: solid;
     border-width: 10px 0 10px 16px;
-    border-color: transparent transparent transparent rgb(179, 107, 0);
+    border-color: transparent transparent transparent rgb(255, 203, 11);
 }
 .work-info h5 {
     font-size: 1.3em;
@@ -256,7 +256,7 @@ p {
     margin-top: 0.8em;
 }
 .work-info:hover h5 span.glyphicon {
-    color: #b36b00;
+    color: #ffcb0b;
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
     transform: scale(1.2);
