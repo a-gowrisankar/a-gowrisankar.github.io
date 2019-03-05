@@ -57,8 +57,8 @@ body a:hover{
 }
 .header-right h2 {
     font-size: 1.2em;
-    color: #003366;
-    background: #ffffe6;
+    color: #000;
+    background: #F3E000;
     display: inline-block;
     padding: .5em 1.5em;
     position: relative;
@@ -72,7 +72,7 @@ body a:hover{
     left: 12px;
     border-style: solid;
     border-width: 10px 10px 0 10px;
-    border-color: #F3E000 transparent transparent transparent;
+    border-color: #ffffe6 transparent transparent transparent;
 }
 .header-right h6 {
     font-size: 1em;
@@ -209,7 +209,7 @@ p {
     font-size: 1.3em;
     color: #ffffe6;
     margin-bottom: .5em;
-    border: 1px solid #ffffe6;
+    border: 1px solid #F7E612;
     display: inline-block;
     padding: 0 1.2em;
 }
