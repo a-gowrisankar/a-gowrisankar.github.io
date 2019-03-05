@@ -6,8 +6,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
 	margin:0;
-	font-family: 'ProductSans-Regular', sans-serif;
-	background: #ffffe6;
+	font-family: 'Roboto Condensed', sans-serif;
+	background: #fff;
 }
 body a{
 	transition: 0.5s all;
@@ -57,8 +57,8 @@ body a:hover{
 }
 .header-right h2 {
     font-size: 1.2em;
-    color: #003366;
-    background: #FFDF00;
+    color: #000;
+    background: #F3E000;
     display: inline-block;
     padding: .5em 1.5em;
     position: relative;
@@ -72,7 +72,7 @@ body a:hover{
     left: 12px;
     border-style: solid;
     border-width: 10px 10px 0 10px;
-    border-color: #FFDF00 transparent transparent transparent;
+    border-color: #F3E000 transparent transparent transparent;
 }
 .header-right h6 {
     font-size: 1em;
@@ -103,12 +103,12 @@ ul.address li ul.address-text li a {
 	text-decoration:none;
 }
 ul.address li ul.address-text li a:hover{
-    color: #003366;
+    color: #0FF;
 }
 /*--//banner-top--*/
 /*--top-nav--*/
 .top-nav {
-    background: #003366;
+    background: #008B8B;
 }
 .nav > li {
     display: inline-block;
@@ -124,7 +124,7 @@ ul.nav.navbar li a {
     font-family: 'Overlock', cursive;
 }
 ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
-    color: #003366;
+    color: #008B8B;
     background: #fff;
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
@@ -140,7 +140,7 @@ ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 h3.title {
     font-size: 4em;
     text-align: center;
-    color: #003366;
+    color: #008B8B;
     border-bottom: 4px double rgba(247, 197, 106, 0.35);
     padding-bottom: 0.2em;
 	margin-bottom: 1em;
@@ -154,13 +154,13 @@ p {
     padding-left: 5em;
 }
 .about-right ul {
-    border: 3px double #003366;
+    border: 3px double #008B8B;
     padding: 1em 2em;
 }
 .about-right h5 {
     font-size: 2em;
     text-align: center;
-    color: #003366;
+    color: #008B8B;
 }
 .about-right ul li {
     display: block;
@@ -175,7 +175,7 @@ p {
 /*--//about--*/
 /*--work--*/
 .work {
-    background: #003366;
+    background: #000;
 }
 .work-left {
     text-align: right;
@@ -187,7 +187,7 @@ p {
 }
 .work-info h4 {
     font-size: 1.2em;
-    background: rgb(0, 51, 102);
+    background: darkcyan;
     display: inline-block;
     padding: .6em 1.2em;
     color: #fff;
@@ -203,20 +203,20 @@ p {
     right: -14px;
     border-style: solid;
     border-width: 10px 0 10px 16px;
-    border-color: transparent transparent transparent rgb(0, 51, 102);
+    border-color: transparent transparent transparent rgb(0, 139, 139);
 }
 .work-info h5 {
     font-size: 1.3em;
-    color: #FFDF00;
+    color: #F7E612;
     margin-bottom: .5em;
-    border: 1px solid #FFDF00;
+    border: 1px solid #F7E612;
     display: inline-block;
     padding: 0 1.2em;
 }
 .work-info h5 span.glyphicon {
     font-size: 0.9em;
     color: #fff;
-    background: #003366;
+    background: #008B8B;
     padding: 1em;
     -webkit-border-radius: 70%;
     -moz-border-radius: 70%;
@@ -266,12 +266,12 @@ p {
 /*--//work--*/
 /*--education--*/
 .education .work-info h5 {
-    color: #003366;
+    color: #000;
 }
 /*--//education--*/
 /*--skills--*/
 .skills{
-	background:#003366;
+	background:#000;
 }
 .bar-grids {
     padding: 0 4em;
@@ -317,7 +317,7 @@ background: #F7E612;
     text-align: center;
 }
 .resp-tab-item {
-    color: #003366;
+    color: #000;
     font-size: 1.2em;
     cursor: pointer;
     display: inline-block;
@@ -333,12 +333,12 @@ background: #F7E612;
 	position:relative;
 }
 .resp-tab-item:hover{
-    color: #003366;
+    color: #1D9898;
 }
 .resp-tab-active,.resp-tab-active:hover{
     text-shadow: none;
     color: #fff;
-    background: #003366;
+    background: #1D9898;
 }
 .resp-tab-active:before {
     width: 0;
@@ -350,7 +350,7 @@ background: #F7E612;
 	/*-- agileits --*/
     border-style: solid;
     border-width: 7px 7px 0 7px;
-    border-color: #003366 transparent transparent transparent;
+    border-color: #1D9898 transparent transparent transparent;
 }
 .resp-tabs-container {
 	padding: 0px;
@@ -375,7 +375,7 @@ h2.resp-accordion {
 .grid {
 	position: relative;
 	overflow:hidden;
-	background: #003366;
+	background: #000;
 }
 .grid img {
 	opacity: 0.8;
@@ -498,7 +498,7 @@ h2.resp-accordion {
 /*--//portfolio--*/
 /*--contact--*/
 .contact{
-	background:#003366;
+	background:#000;
 }
 .contact-left iframe {
     width: 100%;
@@ -573,8 +573,8 @@ h2.resp-accordion {
     font-size: 1.1em;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background: #003366;
-    border: 2px solid #003366;
+    background: #008B8B;
+    border: 2px solid #008B8B;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     transition: 0.5s all;
@@ -583,7 +583,7 @@ h2.resp-accordion {
 }
 .contact-form input[type="submit"]:hover {
     background: none;
-    color: #003366;
+    color: #008B8B;
 }
 ::-webkit-input-placeholder {
 	color:#fff !important;
