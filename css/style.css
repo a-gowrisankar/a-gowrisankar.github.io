@@ -167,10 +167,11 @@ body a{
 #skills-info li{
     display: inline-block;
     margin: 7px;
+    border-radius: 13px;
     transition: all .2s ease-in-out; 
     padding: 5px 10px;
-    color: #374054;
-    background: #e4e4ea;
+    color: #001a33;
+    background: #ffffe6;
     list-style: none;
     letter-spacing: 0.8px;
     cursor: default;
@@ -280,12 +281,12 @@ ul.address li ul.address-text li a {
 	text-decoration:none;
 }
 ul.address li ul.address-text li a:hover{
-    color: #003366;
+    color: #001a33;
 }
 /*--//banner-top--*/
 /*--top-nav--*/
 .top-nav {
-    background: #003366;
+    background: #001a33;
 }
 .nav > li {
     display: inline-block;
@@ -301,7 +302,7 @@ ul.nav.navbar li a {
     font-family: 'Overlock', cursive;
 }
 ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
-    color: #003366;
+    color: #001a33;
     background: #fff;
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
@@ -321,7 +322,7 @@ ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 h3.title {
     font-size: 4em;
     text-align: center;
-    color: #003366;
+    color: #F3E000;
     border-bottom: 4px double rgba(247, 197, 106, 0.35);
     padding-bottom: 0.2em;
 	margin-bottom: 1em;
@@ -1282,3 +1283,11 @@ h3.title {
     padding-bottom:10px;
 }
 
+h3.defaultColor {
+    font-size: 4em;
+    text-align: center;
+    color: #001a33;
+    border-bottom: 4px double rgba(247, 197, 106, 0.35);
+    padding-bottom: 0.2em;
+	margin-bottom: 1em;
+}
