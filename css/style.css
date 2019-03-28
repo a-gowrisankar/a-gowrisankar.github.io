@@ -188,11 +188,16 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Overlock', cursive;
 }
 
+h1{
+	margin:0;	
+	font-family: 'Ebrima', cursive;
+}
+
 h6{
     margin:0;	
-    font-family: 'Overlock', cursive; 
+    font-family: 'Ebrima', cursive; 
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: 500;
 }
 p{
 	margin:0;
