@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 body{
 	margin:0;
 	font-family: 'Roboto Condensed', sans-serif;
-	background: #ffffe6;
+	background: #fff;
 }
 body a{
 	transition: 0.5s all;
@@ -17,6 +17,172 @@ body a{
 	-ms-transition: 0.5s all;
 	text-decoration:none;
 }
+
+.btn-rounded-white{
+
+    color: white;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: transparent;
+    padding:15px 25px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#id{
+    
+    font-size: 3.0em;
+}
+
+#mainbox{
+
+    box-sizing: border-box;
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#title-name{
+    align-content: flex-end;
+    margin-top: 4.0em;
+}
+
+#caption-main{
+    font-size: 2.0em;
+    font-weight: 800;
+    line-height: 1.8em;
+    text-align: justify;  
+}
+
+.card{
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid darkcyan;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+.card h1{
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-top: 5px;
+    text-align: center;
+   }
+
+.card p{
+    margin-top: 40px;
+    line-height: 1.4em;
+    color: black;
+    font-size: 1.0em;
+    text-align: justify;
+    word-spacing: 0px;
+    font-weight: 500;
+}
+.links {
+    text-align: center;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+    font-size: 21px;
+    color: darkcyan;
+}
+
+#about-me{
+    font-size: 1.5em;
+    color: #000;
+    font-weight: 400;
+    line-height: 1.8em;
+     text-align: justify;
+}
+
+.social-links {
+    list-style:none;
+    margin:0;
+    padding:0;
+    margin-bottom:30px;
+}
+
+.social-links li{
+    display:inline-block;
+    margin:0 5px;
+    border-radius:3px;
+    box-shadow:0 4px 0 transparent;
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.social-links li a {
+    display:block;
+    color:#fff;
+    font-size:21px;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    background:#558B2F;
+    border-radius:50%;
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.social-links li a:hover {
+    color:#fff;
+    background:#f1582c;
+}
+
+#skills-info{
+    text-align: center;
+    padding: 25px 5px;
+
+}
+
+#skills-info h2{
+    margin-bottom: 25px;
+    letter-spacing: 1.4px;
+    font-family: 'Oswald', sans-serif;
+    
+    
+    
+}
+
+#skills ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1080px;
+    text-align: justify;
+}
+
+#skills-info li{
+    display: inline-block;
+    margin: 7px;
+    transition: all .2s ease-in-out; 
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    letter-spacing: 0.8px;
+    cursor: default;
+    font-size: 1.2em;
+    font-family: 'Alegreya', serif;
+    font-weight: 600;
+}
+
+#skills-info li:hover{
+    transform: scale(1.4); 
+}
+
 h1,h2,h3,h4,h5,h6{
 	margin:0;	
 	font-family: 'Overlock', cursive;
@@ -40,7 +206,10 @@ body a:hover{
 	position: relative;
 }
 .banner-info{
-	background: url(../images/dott.png)repeat 0px 0px;
+	background: #43C6AC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 	padding: 4em 0;
 }
 .header-left img {
@@ -51,7 +220,7 @@ body a:hover{
     padding-left: 3em;
 }
 .header-right h1 {
-    font-size: 2.5em;
+    font-size: 4.5em;
     color: #fff;
     margin: 0.5em 0 0;
 }
@@ -75,7 +244,7 @@ body a:hover{
     border-color: #F3E000 transparent transparent transparent;
 }
 .header-right h6 {
-    font-size: 1em;
+    
     color: #C7C7C7;
     margin-top: 0.8em;
     letter-spacing: 6px;
@@ -103,12 +272,12 @@ ul.address li ul.address-text li a {
 	text-decoration:none;
 }
 ul.address li ul.address-text li a:hover{
-    color: #001a33;
+    color: #0FF;
 }
 /*--//banner-top--*/
 /*--top-nav--*/
 .top-nav {
-    background: #001a33;
+    background: #008B8B;
 }
 .nav > li {
     display: inline-block;
@@ -124,7 +293,7 @@ ul.nav.navbar li a {
     font-family: 'Overlock', cursive;
 }
 ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
-    color: #003366;
+    color: #008B8B;
     background: #fff;
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
@@ -134,13 +303,17 @@ ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 }
 /*--//top-nav--*/
 /*--about--*/
-.about,.work,.education,.skills,.portfolio,.contact{
+.about,.work,.education,.skills,.portfolio{
 	padding:6em 0;
+}
+
+.contact{
+    padding: 2em 0;
 }
 h3.title {
     font-size: 4em;
     text-align: center;
-    color: #ffcb0b;
+    color: #008B8B;
     border-bottom: 4px double rgba(247, 197, 106, 0.35);
     padding-bottom: 0.2em;
 	margin-bottom: 1em;
@@ -154,13 +327,13 @@ p {
     padding-left: 5em;
 }
 .about-right ul {
-    border: 3px double #003366;
+    border: 3px double #008B8B;
     padding: 1em 2em;
 }
 .about-right h5 {
     font-size: 2em;
     text-align: center;
-    color: #003366;
+    color: #008B8B;
 }
 .about-right ul li {
     display: block;
@@ -175,7 +348,7 @@ p {
 /*--//about--*/
 /*--work--*/
 .work {
-    background: #001a33;
+    background: #000;
 }
 .work-left {
     text-align: right;
@@ -187,10 +360,10 @@ p {
 }
 .work-info h4 {
     font-size: 1.2em;
-    background: rgb(255, 203, 11);
+    background: darkcyan;
     display: inline-block;
     padding: .6em 1.2em;
-    color: #001a33;
+    color: #fff;
 	position:relative;
 }
 .work-info h4:before {
@@ -203,7 +376,7 @@ p {
     right: -14px;
     border-style: solid;
     border-width: 10px 0 10px 16px;
-    border-color: transparent transparent transparent rgb(255, 203, 11);
+    border-color: transparent transparent transparent rgb(0, 139, 139);
 }
 .work-info h5 {
     font-size: 1.3em;
@@ -216,7 +389,7 @@ p {
 .work-info h5 span.glyphicon {
     font-size: 0.9em;
     color: #fff;
-    background: #003366;
+    background: #008B8B;
     padding: 1em;
     -webkit-border-radius: 70%;
     -moz-border-radius: 70%;
@@ -256,7 +429,7 @@ p {
     margin-top: 0.8em;
 }
 .work-info:hover h5 span.glyphicon {
-    color: #ffcb0b;
+    color: #F7E612;
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
     transform: scale(1.2);
@@ -266,12 +439,12 @@ p {
 /*--//work--*/
 /*--education--*/
 .education .work-info h5 {
-    color: #001a33;
+    color: #000;
 }
 /*--//education--*/
 /*--skills--*/
 .skills{
-	background:#001a33;
+	background:#000;
 }
 .bar-grids {
     padding: 0 4em;
@@ -333,12 +506,12 @@ background: #F7E612;
 	position:relative;
 }
 .resp-tab-item:hover{
-    color: #00264d;
+    color: #1D9898;
 }
 .resp-tab-active,.resp-tab-active:hover{
     text-shadow: none;
     color: #fff;
-    background: #00264d;
+    background: #1D9898;
 }
 .resp-tab-active:before {
     width: 0;
@@ -350,7 +523,7 @@ background: #F7E612;
 	/*-- agileits --*/
     border-style: solid;
     border-width: 7px 7px 0 7px;
-    border-color: #00264d transparent transparent transparent;
+    border-color: #1D9898 transparent transparent transparent;
 }
 .resp-tabs-container {
 	padding: 0px;
@@ -573,8 +746,8 @@ h2.resp-accordion {
     font-size: 1.1em;
     margin: 1em 0 0 0;
     -webkit-appearance: none;
-    background: #003366;
-    border: 2px solid #003366;
+    background: #008B8B;
+    border: 2px solid #008B8B;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     transition: 0.5s all;
@@ -583,7 +756,7 @@ h2.resp-accordion {
 }
 .contact-form input[type="submit"]:hover {
     background: none;
-    color: #003366;
+    color: #008B8B;
 }
 ::-webkit-input-placeholder {
 	color:#fff !important;
@@ -1096,6 +1269,8 @@ h3.title {
 .contact-form textarea {
     font-size: 0.9em;
 }
+    
 
-}
+
+
 /*--//responsive-design---*/
