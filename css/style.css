@@ -1283,11 +1283,4 @@ h3.title {
     padding-bottom:10px;
 }
 
-h3.defaultColor {
-    font-size: 4em;
-    text-align: center;
-    color: #001a33;
-    border-bottom: 4px double rgba(247, 197, 106, 0.35);
-    padding-bottom: 0.2em;
-	margin-bottom: 1em;
-}
+
