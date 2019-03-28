@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 body{
 	margin:0;
 	font-family: 'Ebrima', sans-serif;
-	background: #fff;
+	background: #ffffe6;
 }
 body a{
 	transition: 0.5s all;
@@ -95,7 +95,7 @@ body a{
     width: 30px;
     height: 30px;
     font-size: 21px;
-    color: darkcyan;
+    color: #001a33;
 }
 
 #about-me{
@@ -214,9 +214,9 @@ body a:hover{
 	position: relative;
 }
 .banner-info{
-	background: #43C6AC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #001a33;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #001a33, #ffcb0b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #191654, #ffcb0b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	padding: 4em 0;
 }
@@ -235,7 +235,7 @@ background: linear-gradient(to bottom, #191654, #43C6AC); /* W3C, IE 10+/ Edge, 
 .header-right h2 {
     font-size: 1.2em;
     color: #000;
-    background: #F3E000;
+    background: #ffcb0b;
     display: inline-block;
     padding: .5em 1.5em;
     position: relative;
@@ -249,7 +249,7 @@ background: linear-gradient(to bottom, #191654, #43C6AC); /* W3C, IE 10+/ Edge, 
     left: 12px;
     border-style: solid;
     border-width: 10px 10px 0 10px;
-    border-color: #F3E000 transparent transparent transparent;
+    border-color: #ffcb0b transparent transparent transparent;
 }
 .header-right h6 {
     
@@ -280,12 +280,12 @@ ul.address li ul.address-text li a {
 	text-decoration:none;
 }
 ul.address li ul.address-text li a:hover{
-    color: #0FF;
+    color: #003366;
 }
 /*--//banner-top--*/
 /*--top-nav--*/
 .top-nav {
-    background: #008B8B;
+    background: #003366;
 }
 .nav > li {
     display: inline-block;
@@ -301,7 +301,7 @@ ul.nav.navbar li a {
     font-family: 'Overlock', cursive;
 }
 ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
-    color: #008B8B;
+    color: #003366;
     background: #fff;
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
@@ -321,7 +321,7 @@ ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 h3.title {
     font-size: 4em;
     text-align: center;
-    color: #008B8B;
+    color: #003366;
     border-bottom: 4px double rgba(247, 197, 106, 0.35);
     padding-bottom: 0.2em;
 	margin-bottom: 1em;
@@ -335,13 +335,13 @@ p {
     padding-left: 5em;
 }
 .about-right ul {
-    border: 3px double #008B8B;
+    border: 3px double #003366;
     padding: 1em 2em;
 }
 .about-right h5 {
     font-size: 2em;
     text-align: center;
-    color: #008B8B;
+    color: #003366;
 }
 .about-right ul li {
     display: block;
@@ -368,10 +368,10 @@ p {
 }
 .work-info h4 {
     font-size: 1.2em;
-    background: darkcyan;
+    background: rgb(255, 203, 11);
     display: inline-block;
     padding: .6em 1.2em;
-    color: #fff;
+    color: #001a33;
 	position:relative;
 }
 .work-info h4:before {
@@ -384,20 +384,20 @@ p {
     right: -14px;
     border-style: solid;
     border-width: 10px 0 10px 16px;
-    border-color: transparent transparent transparent rgb(0, 139, 139);
+    border-color: transparent transparent transparent rgb(255, 203, 11);
 }
 .work-info h5 {
     font-size: 1.3em;
-    color: #F7E612;
+    color: #ffcb0b;
     margin-bottom: .5em;
-    border: 1px solid #F7E612;
+    border: 1px solid #ffcb0b;
     display: inline-block;
     padding: 0 1.2em;
 }
 .work-info h5 span.glyphicon {
     font-size: 0.9em;
     color: #fff;
-    background: #008B8B;
+    background: #003366;
     padding: 1em;
     -webkit-border-radius: 70%;
     -moz-border-radius: 70%;
@@ -437,7 +437,7 @@ p {
     margin-top: 0.8em;
 }
 .work-info:hover h5 span.glyphicon {
-    color: #F7E612;
+    color: #ffcb0b;
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
     transform: scale(1.2);
@@ -514,12 +514,12 @@ background: #F7E612;
 	position:relative;
 }
 .resp-tab-item:hover{
-    color: #1D9898;
+    color: #001a33;
 }
 .resp-tab-active,.resp-tab-active:hover{
     text-shadow: none;
     color: #fff;
-    background: #1D9898;
+    background: #001a33;
 }
 .resp-tab-active:before {
     width: 0;
