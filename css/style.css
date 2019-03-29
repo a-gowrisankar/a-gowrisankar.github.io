@@ -176,7 +176,7 @@ body a{
     letter-spacing: 0.8px;
     cursor: default;
     font-size: 1.2em;
-    font-family: 'Alegreya', serif;
+    font-family: 'Overlock', cursive;
     font-weight: 600;
 }
 
@@ -322,7 +322,7 @@ ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 h3.title {
     font-size: 4em;
     text-align: center;
-    color: #F3E000;
+    color: #ffcb0b;
     border-bottom: 4px double rgba(247, 197, 106, 0.35);
     padding-bottom: 0.2em;
 	margin-bottom: 1em;
