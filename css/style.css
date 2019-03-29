@@ -233,7 +233,7 @@ background: linear-gradient(to bottom, #ffffe6, #ffcb0b); /* W3C, IE 10+/ Edge, 
 .header-right h1 {
     font-size: 4.5em;
     color: #fff;
-    margin: 0.5em 0 0;
+    margin: 0.1em 0 0;
 }
 .header-right h2 {
     font-size: 1.2em;
