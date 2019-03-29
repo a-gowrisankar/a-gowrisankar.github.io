@@ -181,7 +181,7 @@ body a{
 }
 
 #skills-info li:hover{
-    transform: scale(1.4); 
+    transform: scale(1.2); 
     color: #001a33;
     background: #ffcb0b
 }
@@ -218,8 +218,8 @@ body a:hover{
 }
 .banner-info{
 	background: #001a33;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #001a33, #ffcb0b);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #191654, #ffcb0b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to bottom, #ffffe6, #ffcb0b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #ffffe6, #ffcb0b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	padding: 4em 0;
 }
