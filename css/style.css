@@ -57,8 +57,9 @@ body a{
 
 #caption-main{
     font-size: 2.0em;
-    font-weight: 800;
-    line-height: 1.8em;
+    font-weight: 600;
+    line-height: 0.5em;
+    font-family: 'Overlock', cursive;
     text-align: justify;  
 }
 
@@ -263,7 +264,7 @@ background: linear-gradient(to bottom, #ffffe6, #ffcb0b); /* W3C, IE 10+/ Edge, 
 ul.address {
     margin-top: 2em;
     border-top: 1px solid #AFAFAF;
-    padding-top: 0.5em;
+    padding-top: 0.2em;
 }
 ul.address li {
     display: block;
