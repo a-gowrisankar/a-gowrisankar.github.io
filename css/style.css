@@ -65,7 +65,7 @@ body a{
 .card{
     width: 350px;
     border: 1px solid gray;
-    box-shadow: 1px 1px 3px #888;
+    box-shadow: 2px 3px 3px #558B2F;
     border-top: 10px solid #001a33;
     min-height: 250px;
     padding: 10px;
@@ -95,7 +95,7 @@ body a{
     width: 30px;
     height: 30px;
     font-size: 21px;
-    color: #001a33;
+    color: #558B2F;
 }
 
 #about-me{
