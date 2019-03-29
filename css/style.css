@@ -270,8 +270,8 @@ ul.address li {
 }
 ul.address li ul.address-text li {
     display: inline-block;
-    font-size: 1.2em;
-    color: #fff;
+    font-size: 0.8em;
+    color: #001a33;
     margin-top: 1em;
 	font-weight: 100;
 }
