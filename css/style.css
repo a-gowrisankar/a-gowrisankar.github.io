@@ -307,7 +307,7 @@ ul.nav.navbar li a {
 }
 ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
     color: #001a33;
-    background: #fff;
+    background: #ffffe6;
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
     transform: scale(0.8);
