@@ -65,7 +65,7 @@ body a{
 .card{
     width: 350px;
     border: 1px solid gray;
-    box-shadow: 2px 3px 3px #558B2F;
+    box-shadow: 2px 3px 3px #888;
     border-top: 10px solid #001a33;
     min-height: 250px;
     padding: 10px;
@@ -81,7 +81,7 @@ body a{
 .card p{
     margin-top: 40px;
     line-height: 1.4em;
-    color: black;
+    color: #001a33;
     font-size: 1.0em;
     text-align: justify;
     word-spacing: 0px;
@@ -95,12 +95,12 @@ body a{
     width: 30px;
     height: 30px;
     font-size: 21px;
-    color: #558B2F;
+    color: #ffcb0b;
 }
 
 #about-me{
     font-size: 1.5em;
-    color: #000;
+    color: #001a33;
     font-weight: 400;
     line-height: 1.8em;
      text-align: justify;
@@ -789,11 +789,11 @@ h2.resp-accordion {
 .footer {
     padding: 2em 0;
     text-align: center;
-    background: #1F1F1F;
+    background: #001a33;
 }
 .footer p {
     color: #fff;
-	font-size: 1.1em;
+	font-size: 0.8em;
 }
 .footer p a{
     color: #F7E612;
