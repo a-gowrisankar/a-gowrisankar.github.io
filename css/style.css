@@ -80,7 +80,7 @@ body a{
    }
 
 .card p{
-    margin-top: 40px;
+    margin-top: 20px;
     line-height: 1.4em;
     color: #001a33;
     font-size: 1.0em;
@@ -90,6 +90,7 @@ body a{
 }
 .links {
     text-align: center;
+    margin-top: 20px;
 }
 
 .icons {
